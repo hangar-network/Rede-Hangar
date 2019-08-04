@@ -7,7 +7,7 @@
           <th><b>Startup</b></th>
           <th><b>Descrição</b></th>
           <th><b>Modelo de Negócio</b></th>
-          <th><b>Último round</b></th>
+          <!-- <th><b>Último round</b></th> -->
           <th><b>Situação atual</b></th>
         </tr>
       </thead>
@@ -24,7 +24,7 @@
           <td><a :href="startup.site" target="_blank" >{{startup.name}}</a></td>
           <td>{{startup.description}}</td>
           <td>{{startup.market}}</td>
-          <td>{{startup['last-round']}}</td>
+          <!-- <td>{{startup['last-round']}}</td> -->
           <td>{{startup.status}}</td>
         </tr>
       </tbody>
@@ -34,7 +34,7 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import startups from '../source/fake-startups';
+import startups from '../source/startups';
 
 export default Vue.extend({
   computed: {
