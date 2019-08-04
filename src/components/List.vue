@@ -13,7 +13,7 @@
       </thead>
       <tbody>
         <tr v-for="(startup, index) in startups" :key="index">
-          <td>{{index + 1}}</td>
+          <td><img v-if="startup.logo" :src="`/assets/${startup.logo}`" alt="logo" width="20px" height="20px"></td>
           <td><a :href="startup.site" target="_blank" >{{startup.name}}</a></td>
           <td>{{startup.description}}</td>
           <td>{{startup.market}}</td>
