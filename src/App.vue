@@ -39,7 +39,6 @@
 
 h1, h2, h3, h4, h5, h6, th {
   font-family: 'Comfortaa', cursive;
-  font-weight: 700px;
 }
 
 p, td {
