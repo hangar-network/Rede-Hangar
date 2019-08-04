@@ -16,7 +16,7 @@
           <td>
             <img
               v-if="startup.logo"
-              :src="`/assets/${startup.logo}`"
+              :src="`/Rede-Hangar/assets/${startup.logo}`"
               alt="logo"
               width="20px"
               height="20px">
