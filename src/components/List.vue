@@ -3,7 +3,7 @@
     <table class="table table-hover table-mc-light-blue">
       <thead>
         <tr>
-          <th><b>ID</b></th>
+          <th></th>
           <th><b>Startup</b></th>
           <th><b>Descrição</b></th>
           <th><b>Modelo de Negócio</b></th>
