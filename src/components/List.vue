@@ -52,6 +52,8 @@ export default Vue.extend({
 
 .content {
   padding: 0 30px;
+  width: 100%;
+  overflow-x: scroll;
 }
 
 a {
