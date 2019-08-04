@@ -10,7 +10,7 @@
 
 <style lang="less">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  // font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -25,5 +25,24 @@
       color: #42b983;
     }
   }
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('./../public/fonts/Comfortaa/Comfortaa-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./../public/fonts/Nunito_Sans/NunitoSans-Light.ttf');
+}
+
+h1, h2, h3, h4, h5, h6, th {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700px;
+}
+
+p, td {
+  font-family: 'Nunito', sans-serif;
 }
 </style>

@@ -84,9 +84,9 @@ html {
 }
 
 body {
-  font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+  // font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
   font-style: normal;
-  font-weight: 300;
+  // font-weight: 300;
   font-size: 1.4rem;
   line-height: 2rem;
   letter-spacing: 0.01rem;
@@ -110,7 +110,7 @@ body {
   font-size: 2.4rem;
   line-height: 3.2rem;
   letter-spacing: 0;
-  font-weight: 300;
+  // font-weight: 300;
   color: #212121;
   text-transform: inherit;
   margin-bottom: 1rem;
@@ -120,7 +120,7 @@ body {
   font-size: 1.5rem;
   line-height: 2.8rem;
   letter-spacing: 0.01rem;
-  font-weight: 400;
+  // font-weight: 400;
   color: #212121;
   text-align: center;
 }
@@ -141,7 +141,7 @@ body {
 
 // Variables
 // ---------------------
-@table-header-font-weight:      400;
+// @table-header-font-weight:      400;
 @table-header-font-color:       #757575;
 
 @table-cell-padding:            1.6rem;
@@ -189,7 +189,7 @@ body {
     }
   }
   > thead > tr > th {
-    font-weight: @table-header-font-weight;
+    // font-weight: @table-header-font-weight;
     color: @table-header-font-color;
     vertical-align: bottom;
     border-bottom: 1px solid rgba(0,0,0,.12);
@@ -319,7 +319,7 @@ body {
             content: attr(data-title);
             float: left;
             font-size: inherit;
-            font-weight: @table-header-font-weight;
+            // font-weight: @table-header-font-weight;
             color: @table-header-font-color;
           }
         }
