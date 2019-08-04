@@ -13,7 +13,14 @@
       </thead>
       <tbody>
         <tr v-for="(startup, index) in startups" :key="index">
-          <td><img v-if="startup.logo" :src="`/assets/${startup.logo}`" alt="logo" width="20px" height="20px"></td>
+          <td>
+            <img
+              v-if="startup.logo"
+              :src="`/assets/${startup.logo}`"
+              alt="logo"
+              width="20px"
+              height="20px">
+          </td>
           <td><a :href="startup.site" target="_blank" >{{startup.name}}</a></td>
           <td>{{startup.description}}</td>
           <td>{{startup.market}}</td>
@@ -465,7 +472,8 @@ body {
     .table-responsive-vertical .table-striped.table-mc-deep-purple > tbody > tr:nth-child(odd) {
         background-color: @table-bg;
     }
-    .table-responsive-vertical .table-striped.table-mc-deep-purple > tbody > tr > td:nth-child(odd) {
+    .table-responsive-vertical
+    .table-striped.table-mc-deep-purple > tbody > tr > td:nth-child(odd) {
         background-color: #ede7f6;
     }
     .table-responsive-vertical .table-hover.table-mc-deep-purple > tbody > tr:hover > td,
@@ -633,7 +641,8 @@ body {
     .table-responsive-vertical .table-striped.table-mc-light-green > tbody > tr:nth-child(odd) {
         background-color: @table-bg;
     }
-    .table-responsive-vertical .table-striped.table-mc-light-green > tbody > tr > td:nth-child(odd) {
+    .table-responsive-vertical
+    .table-striped.table-mc-light-green > tbody > tr > td:nth-child(odd) {
         background-color: #f1f8e9;
     }
     .table-responsive-vertical .table-hover.table-mc-light-green > tbody > tr:hover > td,
@@ -753,7 +762,8 @@ body {
     .table-responsive-vertical .table-striped.table-mc-deep-orange > tbody > tr:nth-child(odd) {
         background-color: @table-bg;
     }
-    .table-responsive-vertical .table-striped.table-mc-deep-orange > tbody > tr > td:nth-child(odd) {
+    .table-responsive-vertical
+    .table-striped.table-mc-deep-orange > tbody > tr > td:nth-child(odd) {
         background-color: #fbe9e7;
     }
     .table-responsive-vertical .table-hover.table-mc-deep-orange > tbody > tr:hover > td,
