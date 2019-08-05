@@ -3,7 +3,7 @@
     <div>
       <img alt="Vue logo" src="../assets/logo.png" width="200px">
     </div>
-    <div>
+    <div class="title">
       <h2>Rede de Edtechs</h2>
     </div>
     <div class="sponsors">
@@ -49,5 +49,9 @@ export default Vue.extend({
 
 .sponsor-logo {
   margin: 0 10px;
+}
+
+.title {
+  @media (max-width: 800px) { display: none; }
 }
 </style>
