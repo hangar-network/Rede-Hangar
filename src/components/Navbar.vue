@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div>
-      <img alt="Vue logo" src="../assets/logo.png" width="200px">
+      <img alt="logo" src="../assets/logo.png" width="200px">
     </div>
     <div class="title">
       <h2>Rede de Edtechs</h2>
