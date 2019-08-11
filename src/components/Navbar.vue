@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar">
     <div>
-      <img alt="logo" src="../assets/logo.png" width="200px">
+      <a href="http://hangar.network/"><img alt="logo" src="../assets/logo.png" width="200px"></a>
     </div>
     <div class="title">
       <h2>Rede de Edtechs</h2>
