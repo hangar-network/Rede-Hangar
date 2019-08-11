@@ -9,9 +9,4 @@ export default [
     site: 'https://descomplica.com.br',
     logo: 'descomplica.png',
   },
-  {
-    name: 'Contemporânea Contabilidade',
-    site: '',
-    logo: 'contemp.png',
-  },
 ];
