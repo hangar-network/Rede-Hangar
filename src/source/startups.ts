@@ -112,7 +112,7 @@ export default [
     description: 'Plataforma para produção de conteúdo em realidade virtual por professores',
     market: 'B2B',
     'last-round': 'Seed Capital',
-    status: 'Validação',
+    status: 'Operação',
     site: 'https://www.virtualimmersiveschool.com/',
     logo: 'vis.png',
   },
